@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root {
+    --fontMain: "Libre Baskerville", serif;
+    --fontDestaque: "Tinos", serif;
+    --fontDefault: Arial, Helvetica, sans-serif;
+    --color1: #F9ECD7;
+    --color2: #DECDB2;
+    --color3: #D0A06B;
+    --color4: #9B6D21;
+    --color5: #43260E;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--color2);
+    font-family: var(--fontDefault);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--color1), var(--color3));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header h1 {
+    font-family: var(--fontMain);
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: var(--color5);
+}
+
+header p {
+    color: var(--color5);
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: var(--color3);
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--color5);
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.548);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    color: var(--color3);
+    background-color: var(--color4);
+}
+
+main h2 {
+    font-family: var(--fontDestaque);
+    font-size: 2em;
+    margin: 10px;
+}
+
+main h3 {
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+main img {
+    width: 100%;
+}
+
+main .button {
+    background-color: var(--color5);
+    color: var(--color1);
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px;
+    padding: 15px 20px;
+    transition-duration: 0.5s;
+}
+
+main .button:hover {
+    background-color: var(--color4);
+    color: var(--color5);
+}
+
+section.section {
+    display: flex;
+    margin: 40px 0px;
+    justify-content: center;
+}
+
+
+/*  */
+
+section.sectionApresentacao {
+    background-color: var(--color1);
+    padding: 100px;
+}
+
+section.sectionApresentacao h1 {
+    color: var(--color5);
+    font-family: var(--fontDestaque);
+    font-size: 2em;
+    margin: 20px;
+}
+
+section.sectionApresentacao p {
+    color: var(--color5);
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+
+/*  */
+
+section.sectionBlogs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px 50px;
+    text-align: center;
+}
+
+section.sectionBlogs .blog {
+    background-color: var(--color3);
+    max-width: 410px;
+    flex-wrap: wrap;
+}
+
+section.sectionBlogs .blog div {
+    padding-bottom: 30px;
+}
+
+section.sectionBlogs .blog a {
+    font-family: var(--fontDestaque);
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--color5);
+    text-align: center;
+    text-decoration: none;
+    max-width: 400px;
+    padding: 20px;
+    padding-bottom: 10px;
+    text-decoration: 0.5s;
+}
+
+section.sectionBlogs .blog a:hover {
+    color: #9B6D21;
+}
+
+section.sectionBlogs .blog p {
+    text-align: center;
+    max-width: 400px;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+
+/*  */
+
+footer {
+    background-color: var(--color1);
+    padding: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+}
+
+footer div {
+    flex: 0 0 auto;
+    margin: 30px;
+}
+
+footer h2 {
+    color: var(--color5);
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+
+footer div ul {
+    list-style: none;
+}
+
+footer div li {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+footer div a {
+    text-decoration: none;
+    color: var(--color5);
+    font-size: 1.1em;
+    transition-duration: 0.5s;
+}
+
+footer div a:hover {
+    color: var(--color3);
+}
+
+footer p {
+    margin: 10px;
+}
+
+footer>p {
+    flex-basis: 100%;
+    margin-left: 40px;
+}
+
+
+/*  */
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1150px) {}
+
+@media (max-width: 800px) {
+    section.section {
+        display: block;
+        margin: 20px 0px;
+    }
+    section.sectionApresentacao {
+        padding: 50px;
+    }
+    section.sectionBlogs .blog {
+        margin: 20px;
+    }
+}
