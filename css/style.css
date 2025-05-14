@@ -246,4 +246,14 @@ footer>p {
     .section img {
         margin: 8px;
     }
+    section.sectionInicial img {
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .section.sectionComentarios {
+        text-align: center;
+    }
+    section.sectionComentarios img {
+        display: inline-block;
+    }
 }

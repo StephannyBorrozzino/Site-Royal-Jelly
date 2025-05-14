@@ -253,4 +253,7 @@ footer>p {
     section.sectionInicial {
         padding: 20px;
     }
+    section.sectionProdutos {
+        padding: 50px 20px;
+    }
 }

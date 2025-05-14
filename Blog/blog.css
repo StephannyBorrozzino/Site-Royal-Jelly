@@ -152,7 +152,7 @@ section.sectionBlogs .blog a {
     max-width: 400px;
     padding: 20px;
     padding-bottom: 10px;
-    text-decoration: 0.5s;
+    transition-duration: 0.5s;
 }
 
 section.sectionBlogs .blog a:hover {

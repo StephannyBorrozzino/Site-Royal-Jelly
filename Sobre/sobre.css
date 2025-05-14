@@ -267,7 +267,7 @@ footer>p {
         margin: 20px 0px;
     }
     .section img {
-        margin: 6px;
+        margin: 3px;
     }
     section.sectionMissao p,
     ul {
@@ -275,5 +275,8 @@ footer>p {
     }
     section.sectionMissao h2 {
         padding-top: 30px;
+    }
+    section.sectionSobre {
+        padding: 150px 30px;
     }
 }
