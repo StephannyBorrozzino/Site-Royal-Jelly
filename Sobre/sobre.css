@@ -269,6 +269,9 @@ footer>p {
     .section img {
         margin: 3px;
     }
+    section.sectionInicial p {
+        margin-right: 20px;
+    }
     section.sectionMissao p,
     ul {
         padding-bottom: 40px;
