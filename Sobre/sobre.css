@@ -146,7 +146,8 @@ section.sectionMissao div {
 }
 
 section.sectionMissao h2 {
-    margin: 40px;
+    margin: 20px;
+    margin-bottom: 5px;
     padding: 10px;
     max-width: 500px;
     font-size: 2em;
@@ -154,15 +155,16 @@ section.sectionMissao h2 {
 }
 
 section.sectionMissao p,
-ul {
+section.sectionMissao ul {
     padding: 10px;
-    margin: 40px;
+    margin: 30px;
     max-width: 500px;
     font-size: 1.2em;
 }
 
 section.sectionMissao li {
     margin: 10px;
+    margin-top: 5px;
 }
 
 
@@ -263,7 +265,7 @@ footer>p {
 
 @media (max-width: 800px) {
     section.section {
-        display: block;
+        flex-direction: column;
         margin: 20px 0px;
     }
     .section img {
@@ -272,8 +274,13 @@ footer>p {
     section.sectionInicial p {
         margin-right: 20px;
     }
+    div.divImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     section.sectionMissao p,
-    ul {
+    section.sectionMissao ul {
         padding-bottom: 40px;
     }
     section.sectionMissao h2 {
