@@ -227,11 +227,16 @@ footer>p {
 
 @media (max-width: 800px) {
     section.section {
-        display: block;
+        flex-direction: column;
         margin: 20px 0px;
     }
     section.sectionApresentacao {
         padding: 50px;
+    }
+    section.sectionBlogs {
+        justify-content: center;
+        align-items: center;
+        gap: 20px 50px;
     }
     section.sectionBlogs .blog {
         margin: 20px;
