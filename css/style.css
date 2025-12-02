@@ -59,8 +59,8 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--color3);
-    background-color: var(--color4);
+    color: var(--color5);
+    background-color: var(--color2);
 }
 
 main h2 {
@@ -91,7 +91,7 @@ main .button {
 }
 
 main .button:hover {
-    background-color: var(--color4);
+    background-color: var(--color3);
     color: var(--color5);
 }
 
@@ -176,16 +176,31 @@ section.sectionComentarios .comentarios {
     opacity: 0;
     max-height: 0;
     overflow: hidden;
-    transition: opacity 0.5s ease, max-height 0.5s ease;
     margin: 0;
     padding: 0;
 }
 
 section.sectionComentarios .mostrar {
     opacity: 1;
+    animation: desaparecer 10s linear infinite;
     max-height: 500px;
     margin: 10px 0;
     padding: 10px;
+}
+
+@keyframes desaparecer {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 

@@ -59,8 +59,8 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--color3);
-    background-color: var(--color4);
+    color: var(--color5);
+    background-color: var(--color2);
 }
 
 main h2 {
@@ -91,7 +91,7 @@ main .button {
 }
 
 main .button:hover {
-    background-color: var(--color4);
+    background-color: var(--color3);
     color: var(--color5);
 }
 

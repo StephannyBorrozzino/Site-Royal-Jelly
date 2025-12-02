@@ -59,8 +59,8 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--color3);
-    background-color: var(--color4);
+    color: var(--color5);
+    background-color: var(--color2);
 }
 
 main h2 {
@@ -91,7 +91,7 @@ main .button {
 }
 
 main .button:hover {
-    background-color: var(--color4);
+    background-color: var(--color3);
     color: var(--color5);
 }
 
@@ -134,8 +134,8 @@ ul {
 }
 
 section.sectionInicial li {
-    list-style: none;
     padding-bottom: 10px;
+    margin-left: 20px;
 }
 
 section.sectionInicial a {
@@ -177,6 +177,9 @@ section.sectionProdutos p {
 section.sectionProdutos img {
     max-width: 500px;
     max-height: 550px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
 }
 
 
